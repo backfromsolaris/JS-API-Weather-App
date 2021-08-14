@@ -1,0 +1,20 @@
+.div-top{
+    margin-top: 5vh;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+#city_name_form{
+    border: 1px solid darkgreen;
+    padding: 3vh;
+    background-color: lightgreen;
+}
+
+.cityDisplays{
+    text-align: center;
+    margin-top: 5vh;
+}
