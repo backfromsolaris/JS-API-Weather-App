@@ -1,6 +1,43 @@
+body{
+    background-color: rgba(215, 149, 228, 0.548);
+}
+
+form{
+    border: 1px solid darkgreen;
+    border-radius: 10px;
+    padding: 3vh;
+    background-image: linear-gradient(to bottom right, rgba(39, 226, 226, 0.705), rgba(131, 236, 145, 0.801));
+}
+
+#zip-div{
+    display: flex;
+    justify-content: center;
+}
+
+h3{
+    margin-top: 3vh;
+}
+
 .div-top{
     margin-top: 5vh;
     text-align: center;
+}
+
+.top-img-div{
+    margin-top: 4vh;
+}
+
+.top-images{
+    height: 20vh;
+}
+
+#sun-div{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#or-div{
+    margin-top: 10vh;
 }
 
 .container{
@@ -8,13 +45,28 @@
     justify-content: center;
 }
 
-#city_name_form{
-    border: 1px solid darkgreen;
-    padding: 3vh;
-    background-color: lightgreen;
+#city-name-submit{
+    margin-top: 4vh;
+}
+
+#clear-button{
+    margin-top: 5vh;
 }
 
 .cityDisplays{
     text-align: center;
     margin-top: 5vh;
+}
+
+#img-map{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+}
+
+.bottom-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5vh;
 }

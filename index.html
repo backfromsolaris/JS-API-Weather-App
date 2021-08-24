@@ -17,17 +17,45 @@
 
 
 <div class="container">
+    <div class="col-12 col-md-3 top-img-div">
+        <img src="images/raining.svg" class="top-images" alt="Sun Icon">
+    </div>
     <div class="col-12 col-md-5 div-top">
-        <h1>This is an API Weather App</h1>
+        <h1>Rain or Shine</h1>
+        <h3>API Weather App</h3>
+    </div>
+    <div id="sun-div" class="col-12 col-md-3 top-img-div">
+        <img src="images/sun.svg" class="top-images" alt="Rain Icon">
     </div>
 </div>
 
 <div class="container">
-    <div class="col-12 col-md-2 div-top">
+    <div class="col-12 col-md-3 div-top">
         <form id="city_name_form">
-            <input type="text" id="city_name" name="city_name" placeholder="Enter a city name"><br><br>
-            <input type="submit" value="Get Weather">
+            <input type="text" id="city_name" name="city_name" placeholder="City or neighborhood"><br><br>
+            <input type="text" id="state_name" name="state_name" placeholder="State/City/Country">
+            <input type="submit" class="btn btn-secondary" value="Get Weather" id="city-name-submit">
         </form>
+    </div>
+    <div class="col-12 col-md-1 div-top" id="or-div">
+        <!-- <h3>OR</h3> -->
+    </div>
+    <div class="col-12 col-md-3 div-top" id="zip-div">
+        <form id="city_zip_form">
+            <input type="text" id="city_name" name="city_name" placeholder="US zip code"><br><br>
+            <input type="submit" class="btn btn-secondary" value="Get Weather">
+        </form>
+    </div>
+</div>
+
+<!-- <div class="container col-12 col-md-3">
+    <button id="clear-button" class="btn btn-secondary" onclick="clearData()">Clear Results</button>
+</div> -->
+
+<div class="bottom-container">
+    <div class="col-12 col-md-4" id="weatherDivLeft">
+    </div>
+    <div class="col-12 col-md-4" id="weatherDivRight">
     </div>
 </div>
 
